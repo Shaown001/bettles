@@ -1,0 +1,244 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*body{
+	background-image: url('image/dave-hoefler-cls3zN5wte0-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+
+.navbar{ 
+	background-color:rgb(0,100,0);
+	text-align: center;
+	opacity: 0.8;
+}
+.navbar ul{
+	list-style: none;
+
+}
+.navbar ul li{
+	display: inline-block;
+	margin: 20px 15px;
+
+}
+.navbar ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.8s;
+}
+
+.active, .navbar ul li a:hover{
+	background-color:#2ecc71;
+}
+
+.navbar ul li .sub-menu{
+	display: none;
+}
+.navbar ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,100,0);
+}
+.navbar ul li .sub-menu ul li{
+	display: block;
+}
+.navbar ul li:hover .sub-menu ul li a{
+	width: 150px;
+	padding: 10px;
+	background:transparent;
+	border-bottom: 1px solid grey;
+	text-align: left;
+	transition: 0.6s;
+}
+.navbar ul li:hover .sub-menu ul li a:hover{
+	color: #e67e22;
+	transform:translateX(10px); 
+}
+.navbar ul li:hover .sub-menu ul li:last-child a{
+	border-bottom: 0px;
+}
+*/
+
+/*--------animation code start--------*/
+.animation{
+	height: 100px;
+	width: 100px;
+	background: green;
+	animation-name: animation2;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: ;
+	position: absolute;
+}
+@keyframes animation1{
+from{
+	background-color: green;
+    }
+to{
+	background-color: red;
+  }
+}
+@keyframes animation2{
+	0%{
+		background-color: green;
+		top: 0;
+		left:0;
+	}
+	5%{
+		background-color: yellow;
+		top: 20px;
+		left: 50px;
+	}
+	10%{
+		background-color: blue;
+		top: 40px;
+		left: 100px;
+	}
+	15%{
+		background-color: red;
+		top: 60px;
+		left: 150px;
+	}
+	20%{
+		background-color: red;
+		top: 80px;
+		left: 200px;
+	}
+	25%{
+		background-color: orange;
+		top: 100px;
+		left: 250px;
+	}
+	30%{
+		background-color: green;
+		top: 120px;
+		left:300px;
+	}
+	35%{
+		background-color: yellow;
+		top: 140px;
+		left:350px;
+	}
+	40%{
+		background-color: blue;
+		top: 160px;
+		left: 400px;
+	}
+	45%{
+		background-color: red;
+		top: 180px;
+		left: 450px;
+	}
+	50%{
+		background-color: red;
+		top: 200px;
+		left: 500px;
+	}
+	55%{
+		background-color: orange;
+		top: 220px;
+		left: 450px;
+	}
+	60%{
+		background-color: green;
+		top: 240px;
+		left: 400px;
+	}
+	65%{
+		background-color: yellow;
+		top: 260px;
+		left:350px;
+	}
+	70%{
+		background-color: blue;
+		top: 280px;
+		left: 300px;
+	}
+	75%{
+		background-color: red;
+		top: 300px;
+		left: 250px;
+	}
+	80%{
+		background-color: red;
+		top: 320px;
+		left: 200px;
+	}
+	85%{
+		background-color: orange;
+		top: 340px;
+		left: 150px;
+	}
+	90%{
+		background-color: red;
+		top: 360px;
+		left: 100px;
+	}
+	95%{
+		background-color: red;
+		top: 380px;
+		left: 50px;
+	}
+	100%{
+		background-color: orange;
+		top: 400px;
+		left: 0;
+	}
+}
+
+/*--------animation code start--------*/
+
+
+.box1, .box2{
+	height: 150px;
+	width: 150px;
+	border: 2px solid grey;
+	margin: 10px;
+	padding: 60px 50px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.filter img{
+	width: 33%;
+	height: auto;
+}
+.filter1{
+	filter: blur(5px);
+}
+.brightness{
+	filter: brightness(200%);
+}
+.contrast{
+	filter: contrast(200%);
+}
+.grayscale{
+	filter: grayscale(100%);
+}*/
